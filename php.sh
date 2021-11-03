@@ -82,6 +82,6 @@ minimal_apt_get_install \
   sqlite3 \
   #
 
-# Install composer
-curl -sSL https://getcomposer.org/download/1.10.17/composer.phar -o /usr/bin/composer
+# Install latest composer
+curl -sSL https://getcomposer.org/composer-2.phar -o /usr/bin/composer
 chmod +x /usr/bin/composer
